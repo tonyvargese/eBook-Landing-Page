@@ -67,7 +67,11 @@
           <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
         </div>
         <div class="col-md-5 text-center d-none d-md-block">
-          <img src="ebook-cover.png" class="img-fluid" alt="ebook">
+          <!--Tool tip-->
+          <img src="ebook-cover.png" class="img-fluid" alt="ebook" data-bs-toggle="tooltip" data-bs-placement="top" title="net ninja book cover">
+
+         
+          
         </div>
       </div>
     </div>
@@ -138,13 +142,13 @@
     </div>
     <div class="row my-5 g-5 justify-content-center align-items-center">
       <div class="col-6 col-lg-4">
-        <img src="/kindle.png" alt="" class="img-fluid">
+        <img src="kindle.png" alt="" class="img-fluid">
       </div>
 
       <!-- ACCORDIONS -->
 
       <div class="col-lg-6">
-      <div class="accordion" id="chapters">
+      <div class="accordion " id="chapters">
         <div class="accordion-item">
           <h2 class="accordion-header" id="heading-1">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">
@@ -301,6 +305,50 @@
 
 
   <!-- contact form -->
+  <section id="contact">
+    <div class="container-lg">
+      <div class="text-center">
+        <h5>Get in Touch</h5>
+        <p class="lead">Questions to ask.... Fill out the form to contact me directly</p>
+      </div>
+      <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <form >
+          <label for="email" class="form-label">Email address</label>
+      <div class="input-group mb-3">
+  <span class="input-group-text" id="basic-addon1"><i class="bi bi-envelope-at-fill"></i></span>
+  <input type="email" class="form-control" id="email" placeholder="tonyvar666@gmail.com">
+</div>
+          
+      <label for="name" class="form-label">Name</label>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1"><i class="bi bi-person-fill"></i></span>
+        <input type="text" class="form-control" id="name" placeholder="Tony">
+      </div>
+
+      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+      <select class="form-select" id="subject">
+        <option selected>pricing query</option>
+        <option value="1">content query</option>
+        <option value="2">other query</option>
+      </select>
+
+      <label for="query" class="form-label mt-5">your query....</label>
+      <textarea class="form-control" id="query" style="height: 140px;"></textarea>
+
+      <div class="form-floating mb-4 mt-5">
+        <textarea class="form-control" id="about" style="height: 140px;"></textarea>
+        <label for="floatingInput">about</label>
+      </div>
+      <div class="text-center mb-4">
+        <button type="submit" class="btn btn-secondary">Submit</button>
+      </div>
+        </form>
+
+      </div>
+      </div>
+    </div>
+  </section>
 
 
   <!-- get updates / modal trigger -->
