@@ -1,0 +1,19 @@
+
+$primary : #ffc107;
+$light:  #fbf5e5;
+
+// import functions and variables
+
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+
+$custom-theme-colors: (
+    "altlight":   #f2ebfa,
+    "altdark": #522192
+);
+
+$theme-colors: map-merge($custom-theme-colors , $theme-colors );
+
+// import bootstrap
+
+@import 'C:/Users/tonyv/OneDrive/Desktop/html/bootstrap/node_modules/bootstrap/scss/bootstrap.scss';
